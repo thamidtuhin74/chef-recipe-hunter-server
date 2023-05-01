@@ -1,0 +1,188 @@
+[
+    {
+      "id": 1,
+      "chefPicture": "https://example.com/chef1.jpg",
+      "chefName": "John Smith",
+      "yearsOfExperience": 10,
+      "numberOfRecipes": 25,
+      "likes": 1000,
+      "recipes": [
+        {
+          "recipeId": 1,
+          "recipeName": "Spaghetti Carbonara",
+          "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese", "black pepper"],
+          "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Cook bacon in a skillet over medium heat until crispy. 3. Beat eggs and Parmesan cheese together in a bowl. 4. Drain spaghetti and add to the bacon in the skillet. 5. Remove from heat and add the egg mixture, stirring constantly until eggs are cooked. 6. Serve with freshly ground black pepper.",
+          "rating": 4.8
+        },
+        {
+          "recipeId": 2,
+          "recipeName": "Roasted Chicken",
+          "ingredients": ["whole chicken", "potatoes", "carrots", "onions", "rosemary"],
+          "cookingMethod": "1. Preheat oven to 425°F. 2. Cut potatoes, carrots, and onions into chunks and place in a roasting pan. 3. Season whole chicken with salt, pepper, and rosemary. 4. Place chicken on top of the vegetables in the roasting pan. 5. Roast in the oven for 1 hour and 30 minutes, or until the chicken is fully cooked. 6. Let rest for 10 minutes before carving.",
+          "rating": 4.5
+        },
+        {
+          "recipeId": 3,
+          "recipeName": "Beef Tacos",
+          "ingredients": ["ground beef", "taco seasoning", "taco shells", "shredded cheese", "lettuce"],
+          "cookingMethod": "1. Brown ground beef in a skillet over medium-high heat. 2. Drain excess fat from the skillet. 3. Add taco seasoning and stir to coat the beef. 4. Warm taco shells in the oven or microwave. 5. Assemble tacos by filling the shells with the beef, shredded cheese, and lettuce.",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
+        "id": 2,
+        "chefPicture": "https://example.com/chef1.jpg",
+        "chefName": "Maria Rodriguez",
+        "yearsOfExperience": 8,
+        "numberOfRecipes": 30,
+        "likes": 1500,
+        "recipes": [
+          {
+            "recipeId": 1,
+            "recipeName": "Chicken Fajitas",
+            "ingredients": ["chicken breasts", "bell peppers", "onion", "taco seasoning", "tortillas"],
+            "cookingMethod": "1. Cut chicken and vegetables into thin strips. 2. Heat a skillet over medium-high heat. 3. Add chicken and cook until browned. 4. Add vegetables and taco seasoning and cook until vegetables are tender. 5. Serve with warm tortillas.",
+            "rating": 4.6
+          },
+          {
+            "recipeId": 2,
+            "recipeName": "Beef and Broccoli Stir Fry",
+            "ingredients": ["beef sirloin", "broccoli", "soy sauce", "hoisin sauce", "cornstarch"],
+            "cookingMethod": "1. Cut beef into thin strips. 2. Blanch broccoli in boiling water for 2-3 minutes. 3. Heat a wok or large skillet over high heat. 4. Add beef and cook until browned. 5. Add broccoli and sauces and stir to combine. 6. Mix cornstarch with a little water and add to the pan. 7. Cook until the sauce thickens. 8. Serve over rice.",
+            "rating": 4.4
+          },
+          {
+            "recipeId": 3,
+            "recipeName": "Mango Salsa",
+            "ingredients": ["mango", "red onion", "jalapeno pepper", "lime juice", "cilantro"],
+            "cookingMethod": "1. Dice mango, red onion, and jalapeno pepper. 2. Combine in a bowl. 3. Add lime juice and cilantro and stir to combine. 4. Refrigerate for at least 30 minutes before serving.",
+            "rating": 4.8
+          }
+        ]
+    },
+    {
+        "id": 3,
+        "chefPicture": "https://example.com/chef2.jpg",
+        "chefName": "Jane Doe",
+        "yearsOfExperience": 15,
+        "numberOfRecipes": 50,
+        "likes": 5000,
+        "recipes": [
+          {
+            "recipeId": 1,
+            "recipeName": "Grilled Salmon",
+            "ingredients": ["salmon fillets", "olive oil", "lemon", "salt", "pepper"],
+            "cookingMethod": "1. Preheat grill to medium-high heat. 2. Brush salmon fillets with olive oil and season with salt and pepper. 3. Grill salmon for 4-5 minutes per side, or until fully cooked. 4. Squeeze lemon juice over the top before serving.",
+            "rating": 4.7
+          },
+          {
+            "recipeId": 2,
+            "recipeName": "Beef Stroganoff",
+            "ingredients": ["beef sirloin", "onion", "mushrooms", "sour cream", "beef broth"],
+            "cookingMethod": "1. Cut beef sirloin into thin strips. 2. Heat a large skillet over medium-high heat and add beef strips. Cook until browned, about 5 minutes. 3. Remove beef from skillet and set aside. 4. In the same skillet, add diced onion and sliced mushrooms. Cook until tender, about 5 minutes. 5. Add beef broth to the skillet and bring to a boil. 6. Reduce heat to low and add sour cream. Stir until well combined. 7. Add beef back to the skillet and heat through. 8. Serve over cooked",
+            "rating": 4.7
+          },
+          {
+            "recipeId": 3,
+            "recipeName": "Banh Mi",
+            "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
+            "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
+            "rating": 4.7
+          }
+        ]
+    },
+    {
+        "id": 4,
+        "chefPicture": "https://example.com/chef1.jpg",
+        "chefName": "Jamie Nguyen",
+        "yearsOfExperience": 12,
+        "numberOfRecipes": 50,
+        "likes": 2800,
+        "recipes": [
+          {
+            "recipeId": 1,
+            "recipeName": "Vietnamese Spring Rolls",
+            "ingredients": ["rice paper", "vermicelli noodles", "lettuce", "shrimp", "mint leaves"],
+            "cookingMethod": "1. Cook vermicelli noodles according to package instructions. 2. Dip rice paper into a bowl of warm water for a few seconds until it softens. 3. Place softened rice paper on a clean surface. 4. Add a layer of lettuce, vermicelli noodles, shrimp, and mint leaves on top of the rice paper. 5. Roll the rice paper tightly around the ingredients. 6. Serve with peanut dipping sauce.",
+            "rating": 4.9
+          },
+          {
+            "recipeId": 2,
+            "recipeName": "Pho",
+            "ingredients": ["beef bones", "cinnamon sticks", "star anise", "ginger", "rice noodles"],
+            "cookingMethod": "1. Roast beef bones in the oven until browned. 2. Boil bones in a large pot of water for at least 4 hours. 3. Add cinnamon sticks, star anise, ginger, and other seasonings to the pot. 4. Cook rice noodles according to package instructions. 5. Serve noodles and broth in a bowl, and add meat and toppings of your choice, such as bean sprouts, lime wedges, and basil leaves.",
+            "rating": 4.5
+          },
+          {
+            "recipeId": 3,
+            "recipeName": "Banh Mi",
+            "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
+            "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
+            "rating": 4.7
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "chefPicture": "https://example.com/chef2.jpg",
+        "chefName": "Sophia Kim",
+        "yearsOfExperience": 8,
+        "numberOfRecipes": 20,
+        "likes": 1000,
+        "recipes": [
+            {
+                "recipeId": 1,
+                "recipeName": "Korean Beef Bulgogi",
+                "ingredients": ["beef sirloin", "soy sauce", "brown sugar", "sesame oil", "garlic"],
+                "cookingMethod": "1. Slice beef sirloin thinly and marinate in a mixture of soy sauce, brown sugar, sesame oil, and garlic for at least 30 minutes. 2. Heat a pan over medium-high heat and add the marinated beef. 3. Cook beef until browned and cooked through. 4. Serve hot with rice and vegetables.",
+                "rating": 4.7
+            },
+            {
+                "recipeId": 2,
+                "recipeName": "Pho",
+                "ingredients": ["beef bones", "cinnamon sticks", "star anise", "ginger", "rice noodles"],
+                "cookingMethod": "1. Roast beef bones in the oven until browned. 2. Boil bones in a large pot of water for at least 4 hours. 3. Add cinnamon sticks, star anise, ginger, and other seasonings to the pot. 4. Cook rice noodles according to package instructions. 5. Serve noodles and broth in a bowl, and add meat and toppings of your choice, such as bean sprouts, lime wedges, and basil leaves.",
+                "rating": 4.5
+            },
+            {
+                "recipeId": 3,
+                "recipeName": "Banh Mi",
+                "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
+                "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "chefPicture": "https://example.com/chef3.jpg",
+        "chefName": "Mia Patel",
+        "yearsOfExperience": 12,
+        "numberOfRecipes": 40,
+        "likes": 2000,
+        "recipes": [
+            {
+                "recipeId": 1,
+                "recipeName": "Butter Chicken",
+                "ingredients": ["chicken breasts", "butter", "onion", "garlic", "tomato puree"],
+                "cookingMethod": "1. Cut chicken breasts into bite-sized pieces and season with salt. 2. In a large saucepan, melt butter over medium heat. 3. Add onion and garlic and cook until onion is translucent. 4. Add tomato puree and cook for 5 minutes. 5. Add chicken to the saucepan and cook until browned. 6. Add a splash of cream and simmer for 10 minutes. 7. Serve hot with rice and naan bread.",
+                "rating": 4.9
+            },
+            {
+                "recipeId": 2,
+                "recipeName": "Beef Stroganoff",
+                "ingredients": ["beef sirloin", "onion", "mushrooms", "sour cream", "beef broth"],
+                "cookingMethod": "1. Cut beef sirloin into thin strips. 2. Heat a large skillet over medium-high heat and add beef strips. Cook until browned, about 5 minutes. 3. Remove beef from skillet and set aside. 4. In the same skillet, add diced onion and sliced mushrooms. Cook until tender, about 5 minutes. 5. Add beef broth to the skillet and bring to a boil. 6. Reduce heat to low and add sour cream. Stir until well combined. 7. Add beef back to the skillet and heat through. 8. Serve over cooked",
+                "rating": 4.7
+            },
+            {
+                "recipeId": 3,
+                "recipeName": "Banh Mi",
+                "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
+                "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
+                "rating": 4.7
+            }
+        ]
+    }
+]
