@@ -1,7 +1,9 @@
 const express = require('express')
+var cors = require('cors') //first line
 const chefs = require('./chefs-info.json');// -to initialize the JSON data
 const app = express()
 const port = 3000
+app.use(cors()) //2nd line
 
 app.get('/', (req, res) => {
   res.send('Hello World! Chef Server is running')
