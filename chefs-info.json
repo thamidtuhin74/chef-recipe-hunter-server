@@ -1,188 +1,216 @@
 [
     {
       "id": 1,
-      "chefPicture": "https://example.com/chef1.jpg",
+      "chefPicture": "https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg",
       "chefName": "John Smith",
       "yearsOfExperience": 10,
       "numberOfRecipes": 25,
       "likes": 1000,
       "recipes": [
-        {
-          "recipeId": 1,
-          "recipeName": "Spaghetti Carbonara",
-          "ingredients": ["spaghetti", "bacon", "eggs", "Parmesan cheese", "black pepper"],
-          "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Cook bacon in a skillet over medium heat until crispy. 3. Beat eggs and Parmesan cheese together in a bowl. 4. Drain spaghetti and add to the bacon in the skillet. 5. Remove from heat and add the egg mixture, stirring constantly until eggs are cooked. 6. Serve with freshly ground black pepper.",
-          "rating": 4.8
-        },
-        {
-          "recipeId": 2,
-          "recipeName": "Roasted Chicken",
-          "ingredients": ["whole chicken", "potatoes", "carrots", "onions", "rosemary"],
-          "cookingMethod": "1. Preheat oven to 425°F. 2. Cut potatoes, carrots, and onions into chunks and place in a roasting pan. 3. Season whole chicken with salt, pepper, and rosemary. 4. Place chicken on top of the vegetables in the roasting pan. 5. Roast in the oven for 1 hour and 30 minutes, or until the chicken is fully cooked. 6. Let rest for 10 minutes before carving.",
-          "rating": 4.5
-        },
-        {
-          "recipeId": 3,
-          "recipeName": "Beef Tacos",
-          "ingredients": ["ground beef", "taco seasoning", "taco shells", "shredded cheese", "lettuce"],
-          "cookingMethod": "1. Brown ground beef in a skillet over medium-high heat. 2. Drain excess fat from the skillet. 3. Add taco seasoning and stir to coat the beef. 4. Warm taco shells in the oven or microwave. 5. Assemble tacos by filling the shells with the beef, shredded cheese, and lettuce.",
-          "rating": 4.3
-        }
+		  {	"id": 1,    
+			"name": "Sushi Rolls",
+			"img": "https://img.freepik.com/free-photo/side-view-mix-sushi-rolls-tray-with-ginger-wasabi_141793-14242.jpg",
+			"ingredients": ["sushi rice", "nori sheets", "assorted vegetables", "raw fish", "wasabi"],
+			"cookingMethod": "1. Cook sushi rice according to package instructions. 2. Lay a sheet of nori on a sushi mat. 3. Spread a layer of rice on the nori, leaving a small space at the top. 4. Place your desired fillings (vegetables, raw fish, etc.) on top of the rice. 5. Roll the sushi tightly using the mat, tucking in the filling as you go. 6. Wet the top edge of the nori with water to seal the roll. 7. Cut the sushi roll into pieces and serve with soy sauce and wasabi.",
+			"rating": 4.8
+		  },
+		  {
+			"id": 2,
+			"name": "Tempura",
+			"img": "https://cdn.sanity.io/images/f3knbc2s/production/e10c73a37fdcb4b5e43fc4c6fa1dba9e05f8b453-1024x605.jpg",
+			"ingredients": ["shrimp", "vegetables", "flour", "cornstarch", "cold water"],
+			"cookingMethod": "1. Clean and devein shrimp, leaving the tail on. 2. Cut vegetables into bite-sized pieces. 3. In a large bowl, mix flour, cornstarch, and cold water until smooth. 4. Heat oil in a deep fryer or large pot to 375°F. 5. Dip shrimp and vegetables into the batter and let excess batter drip off. 6. Fry the shrimp and vegetables in batches until golden brown. 7. Serve hot with tempura dipping sauce.",
+			"rating": 4.7
+		  },
+		  {
+			"id": 3,
+			"name": "Ramen",
+			"img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+			"ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+			"cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+			"rating": 4.9
+		  }
       ]
     },
     {
         "id": 2,
-        "chefPicture": "https://example.com/chef1.jpg",
+        "chefPicture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
         "chefName": "Maria Rodriguez",
         "yearsOfExperience": 8,
         "numberOfRecipes": 30,
         "likes": 1500,
         "recipes": [
-          {
-            "recipeId": 1,
-            "recipeName": "Chicken Fajitas",
-            "ingredients": ["chicken breasts", "bell peppers", "onion", "taco seasoning", "tortillas"],
-            "cookingMethod": "1. Cut chicken and vegetables into thin strips. 2. Heat a skillet over medium-high heat. 3. Add chicken and cook until browned. 4. Add vegetables and taco seasoning and cook until vegetables are tender. 5. Serve with warm tortillas.",
-            "rating": 4.6
-          },
-          {
-            "recipeId": 2,
-            "recipeName": "Beef and Broccoli Stir Fry",
-            "ingredients": ["beef sirloin", "broccoli", "soy sauce", "hoisin sauce", "cornstarch"],
-            "cookingMethod": "1. Cut beef into thin strips. 2. Blanch broccoli in boiling water for 2-3 minutes. 3. Heat a wok or large skillet over high heat. 4. Add beef and cook until browned. 5. Add broccoli and sauces and stir to combine. 6. Mix cornstarch with a little water and add to the pan. 7. Cook until the sauce thickens. 8. Serve over rice.",
-            "rating": 4.4
-          },
-          {
-            "recipeId": 3,
-            "recipeName": "Mango Salsa",
-            "ingredients": ["mango", "red onion", "jalapeno pepper", "lime juice", "cilantro"],
-            "cookingMethod": "1. Dice mango, red onion, and jalapeno pepper. 2. Combine in a bowl. 3. Add lime juice and cilantro and stir to combine. 4. Refrigerate for at least 30 minutes before serving.",
-            "rating": 4.8
-          }
+          {	"id": 1,    
+			"name": "Ramen",
+			"img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+			"ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+			"cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+			"rating": 4.9
+		  },
+		  {
+			"id": 2,
+			"name": "Udon Noodles",
+			"img": "https://img.freepik.com/free-photo/noodles-with-beef-vegetables-black-table_141793-1729.jpg",
+			"ingredients": ["udon noodles", "shiitake mushrooms", "carrots", "onion", "soy sauce"],
+			"cookingMethod": "1. Cook udon noodles according to package instructions. 2. Slice shiitake mushrooms, carrots, and onion thinly. 3. Heat oil in a large pan or wok over medium-high heat. 4. Add vegetables and stir-fry until tender. 5. Add cooked noodles and soy sauce to the pan and stir-fry until everything is heated through. 6. Serve hot.",
+			"rating": 4.5
+		  },
+		  {
+			"id": 4,
+			"name": "Miso Soup",
+			"img": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg",
+			"ingredients": ["dashi stock", "miso paste", "tofu", "seaweed", "green onions"],
+			"cookingMethod": "1. Heat dashi stock in a pot over medium heat. 2. Add miso paste and whisk until dissolved. 3. Cut tofu into small cubes and add to the pot. 4. Cut seaweed into small pieces and add to the pot. 5. Simmer for a few minutes until everything is heated through. 6. Garnish with sliced green onions and serve hot.",
+			"rating": 4.8
+		  }
         ]
     },
     {
         "id": 3,
-        "chefPicture": "https://example.com/chef2.jpg",
+        "chefPicture": "https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg",
         "chefName": "Jane Doe",
         "yearsOfExperience": 15,
         "numberOfRecipes": 50,
         "likes": 5000,
         "recipes": [
-          {
-            "recipeId": 1,
-            "recipeName": "Grilled Salmon",
-            "ingredients": ["salmon fillets", "olive oil", "lemon", "salt", "pepper"],
-            "cookingMethod": "1. Preheat grill to medium-high heat. 2. Brush salmon fillets with olive oil and season with salt and pepper. 3. Grill salmon for 4-5 minutes per side, or until fully cooked. 4. Squeeze lemon juice over the top before serving.",
-            "rating": 4.7
-          },
-          {
-            "recipeId": 2,
-            "recipeName": "Beef Stroganoff",
-            "ingredients": ["beef sirloin", "onion", "mushrooms", "sour cream", "beef broth"],
-            "cookingMethod": "1. Cut beef sirloin into thin strips. 2. Heat a large skillet over medium-high heat and add beef strips. Cook until browned, about 5 minutes. 3. Remove beef from skillet and set aside. 4. In the same skillet, add diced onion and sliced mushrooms. Cook until tender, about 5 minutes. 5. Add beef broth to the skillet and bring to a boil. 6. Reduce heat to low and add sour cream. Stir until well combined. 7. Add beef back to the skillet and heat through. 8. Serve over cooked",
-            "rating": 4.7
-          },
-          {
-            "recipeId": 3,
-            "recipeName": "Banh Mi",
-            "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
-            "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
-            "rating": 4.7
-          }
+          {	"id": 1,    "name": "Sushi Rolls",
+			"img": "https://img.freepik.com/free-photo/side-view-mix-sushi-rolls-tray-with-ginger-wasabi_141793-14242.jpg",
+			"ingredients": ["sushi rice", "nori sheets", "assorted vegetables", "raw fish", "wasabi"],
+			"cookingMethod": "1. Cook sushi rice according to package instructions. 2. Lay a sheet of nori on a sushi mat. 3. Spread a layer of rice on the nori, leaving a small space at the top. 4. Place your desired fillings (vegetables, raw fish, etc.) on top of the rice. 5. Roll the sushi tightly using the mat, tucking in the filling as you go. 6. Wet the top edge of the nori with water to seal the roll. 7. Cut the sushi roll into pieces and serve with soy sauce and wasabi.",
+			"rating": 4.8
+		  },
+		  {
+			"id": 2,
+			"name": "Tempura",
+			"img": "https://cdn.sanity.io/images/f3knbc2s/production/e10c73a37fdcb4b5e43fc4c6fa1dba9e05f8b453-1024x605.jpg",
+			"ingredients": ["shrimp", "vegetables", "flour", "cornstarch", "cold water"],
+			"cookingMethod": "1. Clean and devein shrimp, leaving the tail on. 2. Cut vegetables into bite-sized pieces. 3. In a large bowl, mix flour, cornstarch, and cold water until smooth. 4. Heat oil in a deep fryer or large pot to 375°F. 5. Dip shrimp and vegetables into the batter and let excess batter drip off. 6. Fry the shrimp and vegetables in batches until golden brown. 7. Serve hot with tempura dipping sauce.",
+			"rating": 4.7
+		  },
+		  {
+			"id": 3,
+			"name": "Tonkatsu",
+			"img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+			"ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+			"cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+			"rating": 4.7
+		  }
         ]
     },
     {
         "id": 4,
-        "chefPicture": "https://example.com/chef1.jpg",
+        "chefPicture": "https://img.freepik.com/premium-photo/cooking-advertisement-people-concept-smiling-female-chef-cook-baker-holding-something-palms-hands-green-background_380164-82204.jpg?size=626&ext=jpg",
         "chefName": "Jamie Nguyen",
         "yearsOfExperience": 12,
         "numberOfRecipes": 50,
         "likes": 2800,
         "recipes": [
+		  { "id": 1,    
+			"name": "Ramen",
+			"img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+			"ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+			"cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+			"rating": 4.9
+		  },
           {
-            "recipeId": 1,
-            "recipeName": "Vietnamese Spring Rolls",
-            "ingredients": ["rice paper", "vermicelli noodles", "lettuce", "shrimp", "mint leaves"],
-            "cookingMethod": "1. Cook vermicelli noodles according to package instructions. 2. Dip rice paper into a bowl of warm water for a few seconds until it softens. 3. Place softened rice paper on a clean surface. 4. Add a layer of lettuce, vermicelli noodles, shrimp, and mint leaves on top of the rice paper. 5. Roll the rice paper tightly around the ingredients. 6. Serve with peanut dipping sauce.",
-            "rating": 4.9
-          },
-          {
-            "recipeId": 2,
-            "recipeName": "Pho",
-            "ingredients": ["beef bones", "cinnamon sticks", "star anise", "ginger", "rice noodles"],
-            "cookingMethod": "1. Roast beef bones in the oven until browned. 2. Boil bones in a large pot of water for at least 4 hours. 3. Add cinnamon sticks, star anise, ginger, and other seasonings to the pot. 4. Cook rice noodles according to package instructions. 5. Serve noodles and broth in a bowl, and add meat and toppings of your choice, such as bean sprouts, lime wedges, and basil leaves.",
-            "rating": 4.5
-          },
-          {
-            "recipeId": 3,
-            "recipeName": "Banh Mi",
-            "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
-            "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
-            "rating": 4.7
-          }
+			"id": 2,
+			"name": "Tempura",
+			"img": "https://cdn.sanity.io/images/f3knbc2s/production/e10c73a37fdcb4b5e43fc4c6fa1dba9e05f8b453-1024x605.jpg",
+			"ingredients": ["shrimp", "vegetables", "flour", "cornstarch", "cold water"],
+			"cookingMethod": "1. Clean and devein shrimp, leaving the tail on. 2. Cut vegetables into bite-sized pieces. 3. In a large bowl, mix flour, cornstarch, and cold water until smooth. 4. Heat oil in a deep fryer or large pot to 375°F. 5. Dip shrimp and vegetables into the batter and let excess batter drip off. 6. Fry the shrimp and vegetables in batches until golden brown. 7. Serve hot with tempura dipping sauce.",
+			"rating": 4.7
+		  },
+		  {
+			"id": 3,
+			"name": "Tonkatsu",
+			"img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+			"ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+			"cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+			"rating": 4.7
+		  }
         ]
       },
       {
         "id": 5,
-        "chefPicture": "https://example.com/chef2.jpg",
+        "chefPicture": "https://img.freepik.com/premium-photo/female-chef-with-tray-food-hand-isolated-white_70216-4205.jpg",
         "chefName": "Sophia Kim",
         "yearsOfExperience": 8,
         "numberOfRecipes": 20,
         "likes": 1000,
         "recipes": [
             {
-                "recipeId": 1,
-                "recipeName": "Korean Beef Bulgogi",
-                "ingredients": ["beef sirloin", "soy sauce", "brown sugar", "sesame oil", "garlic"],
-                "cookingMethod": "1. Slice beef sirloin thinly and marinate in a mixture of soy sauce, brown sugar, sesame oil, and garlic for at least 30 minutes. 2. Heat a pan over medium-high heat and add the marinated beef. 3. Cook beef until browned and cooked through. 4. Serve hot with rice and vegetables.",
-                "rating": 4.7
-            },
-            {
-                "recipeId": 2,
-                "recipeName": "Pho",
-                "ingredients": ["beef bones", "cinnamon sticks", "star anise", "ginger", "rice noodles"],
-                "cookingMethod": "1. Roast beef bones in the oven until browned. 2. Boil bones in a large pot of water for at least 4 hours. 3. Add cinnamon sticks, star anise, ginger, and other seasonings to the pot. 4. Cook rice noodles according to package instructions. 5. Serve noodles and broth in a bowl, and add meat and toppings of your choice, such as bean sprouts, lime wedges, and basil leaves.",
-                "rating": 4.5
-            },
-            {
-                "recipeId": 3,
-                "recipeName": "Banh Mi",
-                "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
-                "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
-                "rating": 4.7
-            }
+			"id": 1,
+			"name": "Tonkatsu",
+			"img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+			"ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+			"cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+			"rating": 4.7
+		  },
+		  {
+			"id": 2,
+			"name": "Miso Soup",
+			"img": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg",
+			"ingredients": ["dashi stock", "miso paste", "tofu", "seaweed", "green onions"],
+			"cookingMethod": "1. Heat dashi stock in a pot over medium heat. 2. Add miso paste and whisk until dissolved. 3. Cut tofu into small cubes and add to the pot. 4. Cut seaweed into small pieces and add to the pot. 5. Simmer for a few minutes until everything is heated through. 6. Garnish with sliced green onions and serve hot.",
+			"rating": 4.8
+		  },
+		  {    
+			"id": 3,    
+			"name": "Yakitori",    
+			"img": "https://img.freepik.com/premium-photo/grilled-chicken-gizzard-skewer-yakitori-serve-izakaya-style_1339-179077.jpg",    
+			"ingredients": ["chicken thighs", "green onions", "soy sauce", "sugar", "mirin"],
+			"cookingMethod": "1. Cut chicken thighs into bite-sized pieces. 2. Cut green onions into 2-inch pieces. 3. Thread chicken and green onions onto skewers. 4. Mix soy sauce, sugar, and mirin in a small bowl. 5. Grill skewers over medium-high heat, brushing with sauce and turning occasionally, until chicken is cooked through. 6. Serve hot with additional sauce and rice.",
+			"rating": 4.6
+		  }
         ]
     },
     {
         "id": 6,
-        "chefPicture": "https://example.com/chef3.jpg",
+        "chefPicture": "https://img.freepik.com/free-photo/studio-portrait-cook-man-with-fresh-vegetables-table_613910-9893.jpg",
         "chefName": "Mia Patel",
         "yearsOfExperience": 12,
         "numberOfRecipes": 40,
         "likes": 2000,
         "recipes": [
-            {
-                "recipeId": 1,
-                "recipeName": "Butter Chicken",
-                "ingredients": ["chicken breasts", "butter", "onion", "garlic", "tomato puree"],
-                "cookingMethod": "1. Cut chicken breasts into bite-sized pieces and season with salt. 2. In a large saucepan, melt butter over medium heat. 3. Add onion and garlic and cook until onion is translucent. 4. Add tomato puree and cook for 5 minutes. 5. Add chicken to the saucepan and cook until browned. 6. Add a splash of cream and simmer for 10 minutes. 7. Serve hot with rice and naan bread.",
-                "rating": 4.9
-            },
-            {
-                "recipeId": 2,
-                "recipeName": "Beef Stroganoff",
-                "ingredients": ["beef sirloin", "onion", "mushrooms", "sour cream", "beef broth"],
-                "cookingMethod": "1. Cut beef sirloin into thin strips. 2. Heat a large skillet over medium-high heat and add beef strips. Cook until browned, about 5 minutes. 3. Remove beef from skillet and set aside. 4. In the same skillet, add diced onion and sliced mushrooms. Cook until tender, about 5 minutes. 5. Add beef broth to the skillet and bring to a boil. 6. Reduce heat to low and add sour cream. Stir until well combined. 7. Add beef back to the skillet and heat through. 8. Serve over cooked",
-                "rating": 4.7
-            },
-            {
-                "recipeId": 3,
-                "recipeName": "Banh Mi",
-                "ingredients": ["baguette", "pork belly", "carrots", "cucumber", "cilantro"],
-                "cookingMethod": "1. Slice baguette in half and spread mayonnaise on each side. 2. Cook pork belly until browned and crispy. 3. Slice carrots and cucumber thinly. 4. Assemble sandwich with pork belly, carrots, cucumber, cilantro, and other toppings of your choice, such as jalapenos and pate. 5. Serve immediately.",
-                "rating": 4.7
-            }
+          {	"id": 1,    
+			"name": "Ramen",
+			"img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+			"ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+			"cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+			"rating": 4.9
+		  },
+		  {
+			"id": 2,
+			"name": "Udon Noodles",
+			"img": "https://img.freepik.com/free-photo/noodles-with-beef-vegetables-black-table_141793-1729.jpg",
+			"ingredients": ["udon noodles", "shiitake mushrooms", "carrots", "onion", "soy sauce"],
+			"cookingMethod": "1. Cook udon noodles according to package instructions. 2. Slice shiitake mushrooms, carrots, and onion thinly. 3. Heat oil in a large pan or wok over medium-high heat. 4. Add vegetables and stir-fry until tender. 5. Add cooked noodles and soy sauce to the pan and stir-fry until everything is heated through. 6. Serve hot.",
+			"rating": 4.5
+		  },
+		  {
+			"id": 3,
+			"name": "Tonkatsu",
+			"img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+			"ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+			"cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+			"rating": 4.7
+		  },
+		  {
+			"id": 4,
+			"name": "Miso Soup",
+			"img": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg",
+			"ingredients": ["dashi stock", "miso paste", "tofu", "seaweed", "green onions"],
+			"cookingMethod": "1. Heat dashi stock in a pot over medium heat. 2. Add miso paste and whisk until dissolved. 3. Cut tofu into small cubes and add to the pot. 4. Cut seaweed into small pieces and add to the pot. 5. Simmer for a few minutes until everything is heated through. 6. Garnish with sliced green onions and serve hot.",
+			"rating": 4.8
+		  },
+		  {    
+			"id": 5,    
+			"name": "Yakitori",    
+			"img": "https://img.freepik.com/premium-photo/grilled-chicken-gizzard-skewer-yakitori-serve-izakaya-style_1339-179077.jpg",    
+			"ingredients": ["chicken thighs", "green onions", "soy sauce", "sugar", "mirin"],
+			"cookingMethod": "1. Cut chicken thighs into bite-sized pieces. 2. Cut green onions into 2-inch pieces. 3. Thread chicken and green onions onto skewers. 4. Mix soy sauce, sugar, and mirin in a small bowl. 5. Grill skewers over medium-high heat, brushing with sauce and turning occasionally, until chicken is cooked through. 6. Serve hot with additional sauce and rice.",
+			"rating": 4.6
+		  }
         ]
     }
 ]
