@@ -6,6 +6,7 @@
       "yearsOfExperience": 10,
       "numberOfRecipes": 25,
       "likes": 1000,
+	  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
       "recipes": [
 		  {	"id": 1,    
 			"name": "Sushi Rolls",
@@ -38,6 +39,7 @@
         "chefName": "Maria Rodriguez",
         "yearsOfExperience": 8,
         "numberOfRecipes": 30,
+		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
         "likes": 1500,
         "recipes": [
           {	"id": 1,    
@@ -71,6 +73,7 @@
         "chefName": "Jane Doe",
         "yearsOfExperience": 15,
         "numberOfRecipes": 50,
+		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
         "likes": 5000,
         "recipes": [
           {	"id": 1,    "name": "Sushi Rolls",
@@ -103,6 +106,7 @@
         "chefName": "Jamie Nguyen",
         "yearsOfExperience": 12,
         "numberOfRecipes": 50,
+		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
         "likes": 2800,
         "recipes": [
 		  { "id": 1,    
@@ -136,6 +140,7 @@
         "chefName": "Sophia Kim",
         "yearsOfExperience": 8,
         "numberOfRecipes": 20,
+		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
         "likes": 1000,
         "recipes": [
             {
@@ -170,6 +175,7 @@
         "chefName": "Mia Patel",
         "yearsOfExperience": 12,
         "numberOfRecipes": 40,
+		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
         "likes": 2000,
         "recipes": [
           {	"id": 1,    
