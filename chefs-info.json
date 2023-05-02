@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "chefPicture": "https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg",
-      "chefName": "John Smith",
+      "img": "https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg",
+      "name": "John Smith",
       "yearsOfExperience": 10,
       "numberOfRecipes": 25,
       "likes": 1000,
@@ -35,8 +35,8 @@
     },
     {
         "id": 2,
-        "chefPicture": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
-        "chefName": "Maria Rodriguez",
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
+        "name": "Maria Rodriguez",
         "yearsOfExperience": 8,
         "numberOfRecipes": 30,
 		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
@@ -69,8 +69,8 @@
     },
     {
         "id": 3,
-        "chefPicture": "https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg",
-        "chefName": "Jane Doe",
+        "img": "https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg",
+        "name": "Jane Doe",
         "yearsOfExperience": 15,
         "numberOfRecipes": 50,
 		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
@@ -102,8 +102,8 @@
     },
     {
         "id": 4,
-        "chefPicture": "https://img.freepik.com/premium-photo/cooking-advertisement-people-concept-smiling-female-chef-cook-baker-holding-something-palms-hands-green-background_380164-82204.jpg?size=626&ext=jpg",
-        "chefName": "Jamie Nguyen",
+        "img": "https://img.freepik.com/premium-photo/cooking-advertisement-people-concept-smiling-female-chef-cook-baker-holding-something-palms-hands-green-background_380164-82204.jpg?size=626&ext=jpg",
+        "name": "Jamie Nguyen",
         "yearsOfExperience": 12,
         "numberOfRecipes": 50,
 		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
@@ -136,8 +136,8 @@
       },
       {
         "id": 5,
-        "chefPicture": "https://img.freepik.com/premium-photo/female-chef-with-tray-food-hand-isolated-white_70216-4205.jpg",
-        "chefName": "Sophia Kim",
+        "img": "https://img.freepik.com/premium-photo/female-chef-with-tray-food-hand-isolated-white_70216-4205.jpg",
+        "name": "Sophia Kim",
         "yearsOfExperience": 8,
         "numberOfRecipes": 20,
 		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
@@ -171,8 +171,8 @@
     },
     {
         "id": 6,
-        "chefPicture": "https://img.freepik.com/free-photo/studio-portrait-cook-man-with-fresh-vegetables-table_613910-9893.jpg",
-        "chefName": "Mia Patel",
+        "img": "https://img.freepik.com/free-photo/studio-portrait-cook-man-with-fresh-vegetables-table_613910-9893.jpg",
+        "name": "Mia Patel",
         "yearsOfExperience": 12,
         "numberOfRecipes": 40,
 		"bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
