@@ -22,11 +22,14 @@ const chef  = chefs.find(chef => chef.id === id) || {}
 res.send(chef);// dispay in screen
 })
 
-app.post('booking-response', async(req,res)=>{
+app.post('/booking-response',async(req,res)=>{
+
   const bookingRes = req.body;
   if(bookingRes){
     res.send("Thank you! Your Booking Request was accepted");
   } 
+  res.send(true);
+
 })
 
 app.listen(port, () => {
